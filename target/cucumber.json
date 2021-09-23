@@ -1,0 +1,1338 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-23T02:29:46.709Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3365347156,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Post my message",
+        "description": "",
+        "id": "create-new-post;post-my-message",
+        "after": [
+          {
+            "result": {
+              "duration": 229525481,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 597192654,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on the home page",
+            "match": {
+              "location": "FreeVerified_StepDefs.i_am_on_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 162648831,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I hover over Get Started button",
+            "match": {
+              "location": "FreeVerified_StepDefs.iHoverOverGetStartedButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 150580085,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click publish button",
+            "match": {
+              "location": "FreeVerified_StepDefs.iClickPublishButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2522685634,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter right credentials for free verified user",
+            "match": {
+              "location": "FreeVerified_StepDefs.i_enter_right_credentialsFreeVerified()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 617311,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click login button",
+            "match": {
+              "location": "FreeVerified_StepDefs.iClickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 904407025,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click create new post button",
+            "match": {
+              "location": "CreateNewPost_StepDefs.i_click_create_new_post_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3036758891,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should land on Design and schedule page",
+            "match": {
+              "location": "CreateNewPost_StepDefs.i_should_land_on_Design_and_schedule_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 83971900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click select account link",
+            "match": {
+              "location": "CreateNewPost_StepDefs.i_click_select_account_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3689950822,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should be able to select an account",
+            "match": {
+              "location": "CreateNewPost_StepDefs.i_should_be_able_to_select_an_account()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3594548589,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I started to enter my message",
+            "match": {
+              "location": "CreateNewPost_StepDefs.i_started_to_enter_my_message()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 36276690,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I should see via Circleboom note added at the end of message",
+            "match": {
+              "location": "CreateNewPost_StepDefs.i_should_see_via_Circleboom_note_added_at_the_end_of_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3039217426,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I should be able to see post preview screen with clickable Post it button",
+            "match": {
+              "location": "CreateNewPost_StepDefs.iShouldBeAbleToSeePostPreviewScreenWithClickablePostItButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20483795,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should be able to see post preview screen with clickable Add to my queue button",
+            "match": {
+              "location": "CreateNewPost_StepDefs.iShouldBeAbleToSeePostPreviewScreenWithClickableAddToMyQueueButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18478762,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I should be able to see post preview screen with clickable Schedule button",
+            "match": {
+              "location": "CreateNewPost_StepDefs.iShouldBeAbleToSeePostPreviewScreenWithClickableScheduleButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 22851056,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I should be able to see upload media",
+            "match": {
+              "location": "CreateNewPost_StepDefs.iShouldBeAbleToSeeUploadMedia()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 23690284,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I should be able to see giphy",
+            "match": {
+              "location": "CreateNewPost_StepDefs.iShouldBeAbleToSeeGiphy()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 21705562,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I should be able to see unsplash",
+            "match": {
+              "location": "CreateNewPost_StepDefs.iShouldBeAbleToSeeUnsplash()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 24335862,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I should be able to see design on canva",
+            "match": {
+              "location": "CreateNewPost_StepDefs.iShouldBeAbleToSeeDesignOnCanva()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3062458573,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "click to post my message",
+            "match": {
+              "location": "CreateNewPost_StepDefs.clickToPostMyMessage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23938591,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I should see CONTINUE WITH FREE PLAN button",
+            "match": {
+              "location": "CreateNewPost_StepDefs.iShouldSeeCONTINUEWITHFREEPLANButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18805816,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I should see clickable UPGRADE button",
+            "match": {
+              "location": "CreateNewPost_StepDefs.iShouldSeeClickableUPGRADEButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58145881,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I click CONTINUE WITH FREE PLAN button",
+            "match": {
+              "location": "CreateNewPost_StepDefs.iClickCONTINUEWITHFREEPLANButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3031517542,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I should see a popup shows my message sent",
+            "match": {
+              "location": "CreateNewPost_StepDefs.iShouldSeeAPopupShowsMyMessageSent()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CreateNewPostWithFreeAccount"
+          },
+          {
+            "name": "@postMessage"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-23T02:30:14.509Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2367939208,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Add to My Queue my message",
+        "description": "",
+        "id": "create-new-post;add-to-my-queue-my-message",
+        "after": [
+          {
+            "result": {
+              "duration": 222123252,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 633564399,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I am on the home page",
+            "match": {
+              "location": "FreeVerified_StepDefs.i_am_on_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 142502201,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I hover over Get Started button",
+            "match": {
+              "location": "FreeVerified_StepDefs.iHoverOverGetStartedButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 75353967,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I click publish button",
+            "match": {
+              "location": "FreeVerified_StepDefs.iClickPublishButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2830636196,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I enter right credentials for free verified user",
+            "match": {
+              "location": "FreeVerified_StepDefs.i_enter_right_credentialsFreeVerified()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 247175,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I click login button",
+            "match": {
+              "location": "FreeVerified_StepDefs.iClickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1140122667,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I click create new post button",
+            "match": {
+              "location": "CreateNewPost_StepDefs.i_click_create_new_post_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3044123831,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I should land on Design and schedule page",
+            "match": {
+              "location": "CreateNewPost_StepDefs.i_should_land_on_Design_and_schedule_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 62030867,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I click select account link",
+            "match": {
+              "location": "CreateNewPost_StepDefs.i_click_select_account_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3697694744,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I should be able to select an account",
+            "match": {
+              "location": "CreateNewPost_StepDefs.i_should_be_able_to_select_an_account()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3477347370,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I started to enter my message",
+            "match": {
+              "location": "CreateNewPost_StepDefs.i_started_to_enter_my_message()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23648283,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I should be able to see post preview screen with clickable Add to my queue button",
+            "match": {
+              "location": "CreateNewPost_StepDefs.iShouldBeAbleToSeePostPreviewScreenWithClickableAddToMyQueueButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20342744,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I should be able to see post preview screen with clickable Schedule button",
+            "match": {
+              "location": "CreateNewPost_StepDefs.iShouldBeAbleToSeePostPreviewScreenWithClickableScheduleButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3024989778,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I should be able to see post preview screen with clickable Post it button",
+            "match": {
+              "location": "CreateNewPost_StepDefs.iShouldBeAbleToSeePostPreviewScreenWithClickablePostItButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 22067500,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I should see via Circleboom note added at the end of message",
+            "match": {
+              "location": "CreateNewPost_StepDefs.i_should_see_via_Circleboom_note_added_at_the_end_of_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 23960851,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I should be able to see upload media",
+            "match": {
+              "location": "CreateNewPost_StepDefs.iShouldBeAbleToSeeUploadMedia()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 26562399,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I should be able to see giphy",
+            "match": {
+              "location": "CreateNewPost_StepDefs.iShouldBeAbleToSeeGiphy()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 21865330,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I should be able to see unsplash",
+            "match": {
+              "location": "CreateNewPost_StepDefs.iShouldBeAbleToSeeUnsplash()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 81114950,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I should be able to add to my queue my message",
+            "match": {
+              "location": "CreateNewPost_StepDefs.iShouldBeAbleToAddToMyQueueMyMessage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 27045744,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I should be able to see design on canva",
+            "match": {
+              "location": "CreateNewPost_StepDefs.iShouldBeAbleToSeeDesignOnCanva()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 73536786,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I click Add to my queue button",
+            "match": {
+              "location": "CreateNewPost_StepDefs.iClickAddToMyQueueButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3081318130,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "I should see Time Queue Settings",
+            "match": {
+              "location": "CreateNewPost_StepDefs.iShouldSeeTimeQueueSettings()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CreateNewPostWithFreeAccount"
+          },
+          {
+            "name": "@AddToMyQueue"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-23T02:30:38.668Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2425393622,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 54,
+        "name": "Schedule my message",
+        "description": "",
+        "id": "create-new-post;schedule-my-message",
+        "after": [
+          {
+            "result": {
+              "duration": 221534131,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 749615507,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "I am on the home page",
+            "match": {
+              "location": "FreeVerified_StepDefs.i_am_on_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 140619233,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "I hover over Get Started button",
+            "match": {
+              "location": "FreeVerified_StepDefs.iHoverOverGetStartedButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 80117391,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "I click publish button",
+            "match": {
+              "location": "FreeVerified_StepDefs.iClickPublishButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2051636302,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "I enter right credentials for free verified user",
+            "match": {
+              "location": "FreeVerified_StepDefs.i_enter_right_credentialsFreeVerified()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 291913,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "I click login button",
+            "match": {
+              "location": "FreeVerified_StepDefs.iClickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 959811740,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "I click create new post button",
+            "match": {
+              "location": "CreateNewPost_StepDefs.i_click_create_new_post_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3015534972,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "I should land on Design and schedule page",
+            "match": {
+              "location": "CreateNewPost_StepDefs.i_should_land_on_Design_and_schedule_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 103790239,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "I click select account link",
+            "match": {
+              "location": "CreateNewPost_StepDefs.i_click_select_account_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3188005398,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "I should be able to select an account",
+            "match": {
+              "location": "CreateNewPost_StepDefs.i_should_be_able_to_select_an_account()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3367379904,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "I started to enter my message",
+            "match": {
+              "location": "CreateNewPost_StepDefs.i_started_to_enter_my_message()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31081596,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "I should be able to see post preview screen with clickable Add to my queue button",
+            "match": {
+              "location": "CreateNewPost_StepDefs.iShouldBeAbleToSeePostPreviewScreenWithClickableAddToMyQueueButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19444555,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "I should be able to see post preview screen with clickable Schedule button",
+            "match": {
+              "location": "CreateNewPost_StepDefs.iShouldBeAbleToSeePostPreviewScreenWithClickableScheduleButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3030397045,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "I should be able to see post preview screen with clickable Post it button",
+            "match": {
+              "location": "CreateNewPost_StepDefs.iShouldBeAbleToSeePostPreviewScreenWithClickablePostItButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 24590179,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "I should see via Circleboom note added at the end of message",
+            "match": {
+              "location": "CreateNewPost_StepDefs.i_should_see_via_Circleboom_note_added_at_the_end_of_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 23584295,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "I should be able to see upload media",
+            "match": {
+              "location": "CreateNewPost_StepDefs.iShouldBeAbleToSeeUploadMedia()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 22420609,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "I should be able to see giphy",
+            "match": {
+              "location": "CreateNewPost_StepDefs.iShouldBeAbleToSeeGiphy()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 25566903,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "I should be able to see unsplash",
+            "match": {
+              "location": "CreateNewPost_StepDefs.iShouldBeAbleToSeeUnsplash()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 21977186,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "I should be able to see design on canva",
+            "match": {
+              "location": "CreateNewPost_StepDefs.iShouldBeAbleToSeeDesignOnCanva()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6098349675,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "I click Schedule it button",
+            "match": {
+              "location": "CreateNewPost_StepDefs.iClickScheduleItButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 20588180,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "I should see SCHEDULE YOUR POST box",
+            "match": {
+              "location": "CreateNewPost_StepDefs.iShouldSeeSCHEDULEYOURPOSTBox()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 27651240,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "I should see send time box",
+            "match": {
+              "location": "CreateNewPost_StepDefs.iShouldSeeSendTimeBox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25585969,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "I should see send date box",
+            "match": {
+              "location": "CreateNewPost_StepDefs.iShouldSeeSendDateBox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 315885,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "I should see clickable cancel button",
+            "match": {
+              "location": "CreateNewPost_StepDefs.iShouldSeeClickableCancelButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 245451,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "I should see clickable Schedule it button",
+            "match": {
+              "location": "CreateNewPost_StepDefs.iShouldSeeClickableScheduleItButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 255641616,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "I enter date",
+            "match": {
+              "location": "CreateNewPost_StepDefs.iEnterDate()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 323117440,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "I enter time",
+            "match": {
+              "location": "CreateNewPost_StepDefs.iEnterTime()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76586471,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "I click Schedule it button in Schedule your post box",
+            "match": {
+              "location": "CreateNewPost_StepDefs.iClickScheduleItButtonInScheduleYourPostBox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21663651,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "I should see clickable UPGRADE button",
+            "match": {
+              "location": "CreateNewPost_StepDefs.iShouldSeeClickableUPGRADEButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 83674143,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "I click CONTINUE WITH FREE PLAN button",
+            "match": {
+              "location": "CreateNewPost_StepDefs.iClickCONTINUEWITHFREEPLANButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1214823837,
+              "status": "passed"
+            },
+            "line": 84,
+            "name": "I should see a popup shows my message scheduled",
+            "match": {
+              "location": "CreateNewPost_StepDefs.iShouldSeeAPopupShowsMyMessageScheduled()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CreateNewPostWithFreeAccount"
+          },
+          {
+            "name": "@ScheduleMyMessage"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-23T02:31:06.359Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2189782114,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 87,
+        "name": "New Post rules sad path",
+        "description": "",
+        "id": "create-new-post;new-post-rules-sad-path",
+        "after": [
+          {
+            "result": {
+              "duration": 263186053,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 697950532,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "I am on the home page",
+            "match": {
+              "location": "FreeVerified_StepDefs.i_am_on_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 155051609,
+              "status": "passed"
+            },
+            "line": 89,
+            "name": "I hover over Get Started button",
+            "match": {
+              "location": "FreeVerified_StepDefs.iHoverOverGetStartedButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90824846,
+              "status": "passed"
+            },
+            "line": 90,
+            "name": "I click publish button",
+            "match": {
+              "location": "FreeVerified_StepDefs.iClickPublishButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2143286271,
+              "status": "passed"
+            },
+            "line": 91,
+            "name": "I enter right credentials for free verified user",
+            "match": {
+              "location": "FreeVerified_StepDefs.i_enter_right_credentialsFreeVerified()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 408477,
+              "status": "passed"
+            },
+            "line": 92,
+            "name": "I click login button",
+            "match": {
+              "location": "FreeVerified_StepDefs.iClickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 929227849,
+              "status": "passed"
+            },
+            "line": 93,
+            "name": "I click create new post button",
+            "match": {
+              "location": "CreateNewPost_StepDefs.i_click_create_new_post_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3024632267,
+              "status": "passed"
+            },
+            "line": 94,
+            "name": "I should land on Design and schedule page",
+            "match": {
+              "location": "CreateNewPost_StepDefs.i_should_land_on_Design_and_schedule_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 70995335,
+              "status": "passed"
+            },
+            "line": 95,
+            "name": "I click select account link",
+            "match": {
+              "location": "CreateNewPost_StepDefs.i_click_select_account_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3674885358,
+              "status": "passed"
+            },
+            "line": 96,
+            "name": "I should be able to select an account",
+            "match": {
+              "location": "CreateNewPost_StepDefs.i_should_be_able_to_select_an_account()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 14698246767,
+              "status": "passed"
+            },
+            "line": 97,
+            "name": "I enter more than 265 character",
+            "match": {
+              "location": "CreateNewPost_StepDefs.i_enter_more_than_265_character()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 28015217,
+              "status": "passed"
+            },
+            "line": 98,
+            "name": "I should be able to see upload media",
+            "match": {
+              "location": "CreateNewPost_StepDefs.iShouldBeAbleToSeeUploadMedia()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 21327500,
+              "status": "passed"
+            },
+            "line": 99,
+            "name": "I should be able to see giphy",
+            "match": {
+              "location": "CreateNewPost_StepDefs.iShouldBeAbleToSeeGiphy()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19596951,
+              "status": "passed"
+            },
+            "line": 100,
+            "name": "I should be able to see unsplash",
+            "match": {
+              "location": "CreateNewPost_StepDefs.iShouldBeAbleToSeeUnsplash()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19286373,
+              "status": "passed"
+            },
+            "line": 101,
+            "name": "I should be able to see design on canva",
+            "match": {
+              "location": "CreateNewPost_StepDefs.iShouldBeAbleToSeeDesignOnCanva()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3029891947,
+              "status": "passed"
+            },
+            "line": 102,
+            "name": "I should get this post will not be posted to Twitter due to its length notification in Post Prewiev",
+            "match": {
+              "location": "CreateNewPost_StepDefs.iShouldGetThisPostWillNotBePostedToTwitterDueToItsLengthNotificationInPostPrewiev()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 351915,
+              "status": "passed"
+            },
+            "line": 103,
+            "name": "I should see Post Preview section disabled",
+            "match": {
+              "location": "CreateNewPost_StepDefs.iShouldSeePostPreviewSectionDisabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 83512734,
+              "status": "passed"
+            },
+            "line": 104,
+            "name": "I should see the link with text Click here to learn more",
+            "match": {
+              "location": "CreateNewPost_StepDefs.i_should_see_the_link_with_Click_here_to_learn_more()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23365653,
+              "status": "passed"
+            },
+            "line": 105,
+            "name": "I should see three dots notification",
+            "match": {
+              "location": "CreateNewPost_StepDefs.iShouldSeeThreeDotsNotification()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 71479575,
+              "status": "passed"
+            },
+            "line": 106,
+            "name": "I click three dots notification",
+            "match": {
+              "location": "CreateNewPost_StepDefs.iClickThreeDotsNotification()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 456422,
+              "status": "passed"
+            },
+            "line": 107,
+            "name": "I should see the rule",
+            "match": {
+              "location": "CreateNewPost_StepDefs.iShouldSeeTheRule()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3127031465,
+              "status": "passed"
+            },
+            "line": 108,
+            "name": "I click the learn more link",
+            "match": {
+              "location": "CreateNewPost_StepDefs.iClickTheLearnMoreLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3001673669,
+              "status": "passed"
+            },
+            "line": 109,
+            "name": "I should lend on help page",
+            "match": {
+              "location": "CreateNewPost_StepDefs.iShouldLendOnHelpPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CreateNewPostWithFreeAccount"
+          },
+          {
+            "name": "@PostMessageSadPath"
+          }
+        ]
+      }
+    ],
+    "name": "Create new post",
+    "description": "",
+    "id": "create-new-post",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com/circleboom/features/CreateNewPost.feature",
+    "tags": [
+      {
+        "name": "@CreateNewPostWithFreeAccount",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
