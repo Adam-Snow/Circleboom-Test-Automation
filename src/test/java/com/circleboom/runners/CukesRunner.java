@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
                 "json:target/cucumber.json"},
         features = "src/test/resources/com/circleboom/features/",
         glue = "com/circleboom/step_definitions",
-        tags = "@CreateNewPostWithFreeAccount",
+     //   tags = "@CreateNewPostWithPremiumAccount",
         dryRun = false
 
 

@@ -1,5 +1,5 @@
 @CreateNewPostWithFreeAccount
-Feature: Create new post
+Feature: Create New Post with Free Account
 
   @postMessage
   Scenario: Post my message

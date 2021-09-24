@@ -168,7 +168,7 @@ public class CreateNewPost_StepDefs {
 
     @Then("I should see a popup shows my message sent")
     public void iShouldSeeAPopupShowsMyMessageSent() {
-        BrowserUtils.waitFor(3);
+        BrowserUtils.waitForVisibility(createNewPost.sentMessage, 11);
         Assert.assertEquals("Your post has been sent", createNewPost.sentMessage.getText());
     }
 
@@ -198,7 +198,7 @@ public class CreateNewPost_StepDefs {
     public void iShouldGetThisPostWillNotBePostedToTwitterDueToItsLengthNotificationInPostPrewiev() {
         BrowserUtils.waitFor(3);
         Assert.assertTrue(createNewPost.willNotSend.isDisplayed());
-        ////*[contains(text(),'This message will not be posted to ')]
+        System.out.println(createNewPost.willNotSend.getText());
     }
 
 
@@ -305,4 +305,6 @@ public class CreateNewPost_StepDefs {
 
 
     }
+
+
 }

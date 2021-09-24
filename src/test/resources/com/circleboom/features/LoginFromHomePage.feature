@@ -1,4 +1,4 @@
-Feature: HomePage to Publish
+Feature: Login from HomePage to Publish
   Agile story:
   As a user,
   when I am on the circleboom homepage
