@@ -20,17 +20,36 @@ public class CreateNewPost {
     public WebElement selectAccount;
     @FindBy(xpath = "//*[@class='accountselection_selection_display__1zCOy accountselection_selection_display_platform__1ecN5 accountselection_twitter__2zdV_']")
     public WebElement selectPlatformTwitter;
-    @FindBy(xpath = "((//h4[.='Select by Social Media Platform'])/..)/div/div")
+    @FindBy(xpath = "//*[@class='accountselection_selection_display__1zCOy accountselection_selection_display_platform__1ecN5 accountselection_linkedin__3jWcQ']")
     public WebElement selectPlatformLinkedin;
-    @FindBy(xpath = "((//h4[.='Select by Social Media Platform'])/..)/div/div")
+    @FindBy(xpath = "//*[@class='accountselection_selection_display__1zCOy accountselection_selection_display_platform__1ecN5 accountselection_facebook__1CJI1']")
+    public WebElement selectPlatformFacebook;
+    @FindBy(css = "div.accountselection_selection_display__1zCOy.accountselection_selection_display_platform__1ecN5.accountselection_instagram__SqIRT > svg")
+    public WebElement selectPlatformInstagram;
+    @FindBy(xpath = "//*[@class='accountselection_selection_display__1zCOy accountselection_selection_display_platform__1ecN5 accountselection_selection_display_platform__active__3aSzq accountselection_google__1Ivl6']")
     public WebElement selectPlatformGoogle;
     @FindBy(xpath = "//div[@class='accountselection_account_display__2YY4M']")
-    public WebElement firstTwitterAccount;
+    public WebElement twitterAccount;
+    @FindBy(xpath = "//*[@class='accountselection_account_display__2YY4M accountselection_account_display_active__1uDUf accountselection_linkedin__3jWcQ'][1]")
+    public WebElement linkedInMarketing;
+    @FindBy(xpath = "//*[@class='accountselection_account_display__2YY4M accountselection_account_display_active__1uDUf accountselection_linkedin__3jWcQ'][2]")
+    public WebElement linkedInAccount;
+    @FindBy(css = "div.accountselection_account_display__2YY4M.accountselection_account_display_active__1uDUf.accountselection_google__1Ivl6 > img")
+    public WebElement googleAccount;
+    @FindBy(xpath = "//*[@class='accountselection_account_display__2YY4M accountselection_account_display_active__1uDUf accountselection_instagram__SqIRT']")
+    public WebElement instagramAccount;
+    @FindBy(css = "//*[@class='accountselection_account_display__2YY4M accountselection_account_display_active__1uDUf accountselection_facebook__1CJI1'][1]")
+    public WebElement facebookSocialMediaInsiderAccount;
+    @FindBy(css = "//*[@class='accountselection_account_display__2YY4M accountselection_account_display_active__1uDUf accountselection_facebook__1CJI1'][2]")
+    public WebElement facebookSocialMediaTrendsAccount;
+    @FindBy(xpath = "//*[@class='accountselection_select_all_users__3HB9s']")
+    public WebElement selectAll;
+
     @FindBy(xpath = "//*[@class='btn btn-blue btn-sm']")
     public WebElement done;
     @FindBy(xpath = "//*[@class='schedule_textarea__3NHe7']")
     public WebElement textArea;
-    @FindBy(xpath = "//*[@id='__next']/div[1]/main/section/div[2]/div[2]/div/div[3]/div/button[3]")
+    @FindBy(xpath = "//*[@class='btn btn-green']")
     public WebElement postButton;
     @FindBy(xpath = "//*[@class='btn btn-default btn-sm']")
     public WebElement continueWithFreePlan;
@@ -40,6 +59,8 @@ public class CreateNewPost {
     public WebElement scheduleIt;
     @FindBy(xpath = "//span[.='Upload Media']")
     public WebElement uploadMedia;
+    @FindBy(css = "input[type=file]")
+    public WebElement clickHereUploadMedia;
     @FindBy(xpath = "//span[.='Giphy']")//??? true, because it is first element
     public WebElement giphy;
     @FindBy(xpath = "//span[.='Unsplash']")// wrong??
@@ -103,12 +124,16 @@ public class CreateNewPost {
         selectPlatformLinkedin.click();
     }
 
-    public void clickGooglePlatform() {
-        selectPlatformGoogle.click();
+    public void clickTwitterAccount() {
+        twitterAccount.click();
     }
 
-    public void clickFirstTwitterAccount() {
-        firstTwitterAccount.click();
+    public void clickGoogleAccount() {
+        googleAccount.click();
+    }
+
+    public void clickFacebookAccount() {
+
     }
 
     public void clickDone() {
@@ -126,24 +151,13 @@ public class CreateNewPost {
 
     public void enterText(String text) {
         BrowserUtils.waitForVisibility(textArea, 3);
-        textArea.sendKeys("Love is an elixir; a human lives with love, is made happy by love and makes those around him or her happy with love. " +
-                "In the vocabulary of humanity, love is life; we feel and sense each other with love.");
+        textArea.sendKeys("Patience is the key to contentment.");
         textArea.click();
     }
 
     public void enterTextMoreThan265() {
         BrowserUtils.waitForVisibility(textArea, 3);
-        textArea.sendKeys("Love is an elixir; a human lives with love, is made happy by love and makes those around him or her happy with love. " +
-                "In the vocabulary of humanity, love is life; we feel and sense each other with love. " +
-                "God Almighty has not created a stronger relation than love, this chain that binds humans one to another. " +
-                "In fact, the Earth is nothing but a ruin without love to keep it fresh and alive. " +
-                "Jinn and humans have sultans; bees, ants and termites have their queens; for each of these there is a throne. " +
-                "Kings and queens are come to power in different ways, and then they ascend their thrones. " +
-                "Love is the sultan that reigns on the throne of our hearts, with no power struggle being involved. " +
-                "The tongue and lips, the eyes and the ears only have a value as long as they carry the flag of love, yet love is only valuable in and of itself. " +
-                "The heart, the pavilion of love, is priceless because of the love it carries. " +
-                "Castles can be conquered without bloodshed merely by waving flags of love in front of them. " +
-                "Sultans become soldiers of affection when conquered by the soldiers of love.");
+        textArea.sendKeys("Love is an elixir; a human lives with love, is made happy by love and makes those around him or her happy with love. In the vocabulary of humanity, love is life; we feel and sense each other with love. God Almighty has not created a stronger relation than love, this chain that binds humans one to another. In fact, the Earth is nothing but a ruin without love to keep it fresh and alive. Jinn and humans have sultans; bees, ants and termites have their queens; for each of these there is a throne. Kings and queens are come to power in different ways, and then they ascend their thrones. Love is the sultan that reigns on the throne of our hearts, with no power struggle being involved. The tongue and lips, the eyes and the ears only have a value as long as they carry the flag of love, yet love is only valuable in and of itself. The heart, the pavilion of love, is priceless because of the love it carries. Castles can be conquered without bloodshed merely by waving flags of love in front of them. Sultans become soldiers of affection when conquered by the soldiers of love.");
         textArea.click();
 
     }
@@ -196,5 +210,53 @@ public class CreateNewPost {
         threeDots.click();
     }
 
+    public void clickLinkedInAccount() {
+        BrowserUtils.waitForVisibility(linkedInAccount, 11);
+        linkedInAccount.click();
+    }
 
+    public void clickLinkedInMarketing() {
+        BrowserUtils.waitForVisibility(linkedInMarketing, 11);
+        linkedInMarketing.click();
+    }
+
+    public void clickPlatformFacebook() {
+        BrowserUtils.waitForVisibility(selectPlatformFacebook, 11);
+        selectPlatformFacebook.click();
+    }
+
+    public void clickLinkedInPlatform() {
+        BrowserUtils.waitForVisibility(selectPlatformLinkedin, 11);
+        selectPlatformLinkedin.click();
+    }
+
+    public void clickInstagramPlatform() {
+        BrowserUtils.waitForVisibility(selectPlatformInstagram, 11);
+        selectPlatformInstagram.click();
+    }
+
+    public void clickGooglePlatform() {
+        BrowserUtils.waitForVisibility(selectPlatformGoogle, 11);
+        selectPlatformGoogle.click();
+    }
+
+    public void clickFacebookSocialMediaInsiderAccount() {
+        BrowserUtils.waitForVisibility(facebookSocialMediaInsiderAccount, 11);
+        facebookSocialMediaInsiderAccount.click();
+    }
+
+    public void clickFacebookSocialMediaTrendsAccount() {
+        BrowserUtils.waitForVisibility(facebookSocialMediaTrendsAccount, 11);
+        facebookSocialMediaTrendsAccount.click();
+    }
+
+    public void clickInstagramAccount() {
+        BrowserUtils.waitForVisibility(instagramAccount, 11);
+        instagramAccount.click();
+    }
+
+    public void clickSelectAll() {
+        BrowserUtils.waitForVisibility(selectAll, 11);
+        selectAll.click();
+    }
 }

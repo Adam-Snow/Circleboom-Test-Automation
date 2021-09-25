@@ -1,8 +1,8 @@
-@CreateNewPostWithFreeAccount
+@CreateNewPost_FreeAccount
 Feature: Create New Post with Free Account
 
   @postMessage
-  Scenario: Post my message
+  Scenario: Post my message free account
     Given I am on the home page
     And I hover over Get Started button
     And I click publish button
@@ -26,8 +26,9 @@ Feature: Create New Post with Free Account
     And I should see clickable UPGRADE button
     When I click CONTINUE WITH FREE PLAN button
     Then I should see a popup shows my message sent
+
   @AddToMyQueue
-  Scenario: Add to My Queue my message
+  Scenario: Add my my message to My Queue
     Given I am on the home page
     And I hover over Get Started button
     And I click publish button

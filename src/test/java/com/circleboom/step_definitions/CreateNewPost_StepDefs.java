@@ -38,6 +38,25 @@ public class CreateNewPost_StepDefs {
         createNewPost.clickDone();
     }
 
+    @Then("I should be able to select multiple account")
+    public void iShouldBeAbleToSelectMultipleAccount() {
+
+
+    }
+
+    @When("I select multiple account")
+    public void iSelectMultipleAccount() {
+        createNewPost.clickTwiterPlatform();
+        createNewPost.clickLinkedInPlatform();
+        //     createNewPost.clickInstagramPlatform();
+        //     createNewPost.clickGooglePlatform();
+        //  createNewPost.clickLinkedInAccount();
+        //   createNewPost.clickLinkedInMarketing();
+        //   createNewPost.clickGoogleAccount();
+        createNewPost.clickSelectAll();
+        createNewPost.clickDone();
+    }
+
     @Given("I selected an account")
     public void i_selected_an_account() {
     }
@@ -55,6 +74,29 @@ public class CreateNewPost_StepDefs {
     public void iShouldBeAbleToSeeUploadMedia() {
         createNewPost.uploadMedia.isDisplayed();
     }
+
+    @When("I click upload media")
+    public void iClickUploadMedia() {
+        BrowserUtils.waitForVisibility(createNewPost.uploadMedia, 11);
+        createNewPost.uploadMedia.click();
+        BrowserUtils.waitFor(11);
+
+    }
+
+    @And("I click click here button")
+    public void iClickClickHereButton() {
+        BrowserUtils.waitFor(5);
+        createNewPost.clickUploadMedia();
+        createNewPost.clickHereUploadMedia.sendKeys("/Users/Na/Documents/CircleboomCucumberBDDAutomation/You can not find what you are not searching.jpg");
+
+    }
+
+
+    @Then("I should be able to upload media")
+    public void iShouldBeAbleToUploadMedia() {
+
+    }
+
 
     @Then("I should be able to see giphy")
     public void iShouldBeAbleToSeeGiphy() {
@@ -146,6 +188,7 @@ public class CreateNewPost_StepDefs {
 
     @When("click to post my message")
     public void clickToPostMyMessage() {
+        BrowserUtils.waitForClickability(createNewPost.postButton, 11);
         createNewPost.clickPostButton();
         BrowserUtils.waitFor(3);
     }
